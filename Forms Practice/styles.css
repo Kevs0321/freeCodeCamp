@@ -1,78 +1,76 @@
-body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #1b1b32;
-    color: #f5f6f7;
-    font-family: Tahoma;
-    font-size: 16px;
+  body {
+    width: 100%;          /* Makes the body take up the full width of the screen */
+    height: 100vh;        /* Makes the body take up the full height of the screen (vh = viewport height) */
+    margin: 0;           /* Removes any space around the edges of the page */
+    background-color: #1b1b32;  /* Makes the background a dark blue color */
+    color: #f5f6f7;      /* Makes all text light colored (almost white) */
+    font-family: Tahoma; /* Uses Tahoma font for all text */
+    font-size: 16px;     /* Sets the basic text size to 16 pixels */
   }
   
   h1, p {
-    margin: 1em auto;
-    text-align: center;
+    margin: 1em auto;    /* Adds space above and below, and centers the text horizontally */
+    text-align: center;  /* Centers the text inside these elements */
   }
   
   form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+    width: 60vw;         /* Makes the form 60% of the screen width (vw = viewport width) */
+    max-width: 500px;    /* Form won't get wider than 500 pixels */
+    min-width: 300px;    /* Form won't get narrower than 300 pixels */
+    margin: 0 auto;      /* Centers the form on the page */
+    padding-bottom: 2em; /* Adds space at the bottom of the form */
   }
   
   fieldset {
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
+    border: none;        /* Removes the default border */
+    padding: 2rem 0;     /* Adds space above and below the content (rem is relative to root font size) */
+    border-bottom: 3px solid #3b3b4f;  /* Adds a dark line at the bottom */
   }
-  
+
   fieldset:last-of-type {
-    border-bottom: none;
+    border-bottom: none; /* Removes the bottom line from the last fieldset */
   }
   
   label {
-    display: block;
-    margin: 0.5rem 0;
+    display: block;      /* Makes each label start on a new line */
+    margin: 0.5rem 0;    /* Adds space above and below each label */
   }
   
-  input,
-  textarea,
-  select {
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
+  input, textarea, select {
+    margin: 10px 0 0 0;  /* Adds space above each input field */
+    width: 100%;         /* Makes inputs take up full width */
+    min-height: 2em;     /* Sets minimum height (em is relative to font size) */
   }
-  
+
   input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
+    background-color: #0a0a23;  /* Dark blue background for text inputs */
+    border: 1px solid #0a0a23;  /* Dark border around inputs */
+    color: #ffffff;             /* White text color */
   }
   
   .inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
+    width: unset;        /* Removes the 100% width */
+    margin: 0 0.5em 0 0; /* Adds space to the right */
+    vertical-align: middle;  /* Aligns the element vertically with text */
   }
   
   input[type="submit"] {
-    display: block;
-    width: 60%;
-    margin: 1em auto;
-    height: 2em;
-    font-size: 1.1rem;
-    background-color: #3b3b4f;
-    border-color: white;
-    min-width: 300px;
+    display: block;      /* Makes the button start on a new line */
+    width: 60%;         /* Makes button width 60% of its container */
+    margin: 1em auto;    /* Centers the button and adds space around it */
+    height: 2em;        /* Sets button height */
+    font-size: 1.1rem;  /* Makes button text slightly larger */
+    background-color: #3b3b4f;  /* Dark background color */
+    border-color: white;        /* White border */
+    min-width: 300px;           /* Button won't get narrower than 300px */
   }
   
   input[type="file"] {
-    padding: 1px 2px;
+    padding: 1px 2px;    /* Adds a tiny bit of space inside the file input */
   }
   
   a {
-    color: #dfdfe2;
+    color: #dfdfe2;      /* Makes links light gray */
   }
   
   
