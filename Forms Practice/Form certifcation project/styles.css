@@ -13,20 +13,20 @@ body {
   }
 
   h1, p {
+    margin: 1rem auto;
     text-align: center;
-    margin: 1em auto;
   }
 
   form {
+    border: solid;
+    width: 60%vh;
+    min-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 
   label {
     display: block;
-    margin: 1rem 0;
   }
 
-  fieldset {
-    border: none;
-    padding: 2rem 0;
-  }
