@@ -22,3 +22,8 @@ body {
     font-family: monospace;
     font-size: 16px;
   }
+
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
