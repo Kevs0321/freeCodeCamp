@@ -14,28 +14,28 @@ Misty Rose  #EAD7D7
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #191919;
-    color: #EAD7D7;
-    font-family: monospace;
-    font-size: 16px;
+    width: 100%; /* Sets the width of the body element to 100% of the browser area. */
+    height: 100vh; /* Sets the height of the body element to 100 of the "viewport height" meaning the whole height of the browser */
+    margin: 0; /* Removes the default margin of the body from all sides. This removes the horizontal scroll as well. */
+    background-color: #191919; /* Adds background color to the body element */
+    color: #EAD7D7; /* Changes the text color */
+    font-family: monospace; /* Changes the font style of the whole body element.  */
+    font-size: 16px; /* Changes the font size of the whole body element */
   }
 
   label {
-    display: block;
-    margin: 1rem 0;
+    display: block; /* This made all labels to be displayed vertically, since labels are "inline elements" meaning they're displayed side by side like text by default. */
+    margin: 1rem 0; /* Adds a top and bottom margin of 1rem and 0 margin to left and right to all labels in the page. */
   }
 
   h1, p {
-    margin: 1em auto;
-    text-align: center;
+    margin: 1em auto; /* Adds a top and bottom margin of 1em and auto for left and right margin. */
+    text-align: center; /* Centers the h1 and p element on the page */
   }
 
   form {
-    margin: 0 auto;
-    width: 60vw;
-    min-width: 300px;
-    max-width: 500px;
+    margin: 0 auto; /* Removes the top and bottom margin of the form element then sets the left and right margin to auto. This will trigger the form element to be centered on the page.  */
+    width: 60vw; /* Sets the initial width of the form element to 60 "viewwidth */
+    min-width: 300px; /* Sets the minimum width of the form element. This means that when you try to make the browser smaller, the width of the form element won't go below 300px or else it will overflow? */
+    max-width: 500px; /* Same principle of the min-width. But this time, it sets the maximum width of the form element to 500px, meaning that when the browser is at its full screen mode, it won't go over 500px width. */
   }
