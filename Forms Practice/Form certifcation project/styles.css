@@ -58,4 +58,8 @@ body {
     vertical-align: middle /* Aligns the radio input vertically so it would appear inline with the labels. */
   }
 
+  input[type="submit"] { /* This selector is called attribute selector. This targets the input element with a "type" attribute and a value of "submit". */
+    display: block; /* Makes the element to be display from it's default element which is "inline" into a "block" element. */
+    width: 60%; /* Sets the width of the submit button to 60%. */
+  }
 
