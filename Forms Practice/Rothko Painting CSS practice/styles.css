@@ -11,11 +11,12 @@ Misty Rose  #EAD7D7
 .canvas {
     width: 500px; /* Adds a set width to the div=class"canvas". This is the initial div container. */
     height: 600px; /* Sets the initial width for our canvas */
-    background-color: #F55536;
+    background-color: #F55536; /* Adds background color to the canvas class */
 }
 
 .frame {
-    border: 50px solid #191919;
-    width: 500px;
-    padding: 50px
+    border: 50px solid #191919; /* Adds a black border for the frame class */
+    width: 500px; /* Sets the with the same with the canvas */
+    padding: 50px; /* Adds space into the frame class to push the canvas class inside and make it look like a frame. */
+    margin: 20px auto;
 }
