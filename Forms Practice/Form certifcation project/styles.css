@@ -39,3 +39,12 @@ body {
     min-width: 300px; /* Sets the minimum width of the form element. This means that when you try to make the browser smaller, the width of the form element won't go below 300px or else it will overflow? */
     max-width: 500px; /* Same principle of the min-width. But this time, it sets the maximum width of the form element to 500px, meaning that when the browser is at its full screen mode, it won't go over 500px width. */
   }
+
+  input, textarea, select {
+    width: 100%; /* Sets the width of all input areas to 100% of their parent element, in this case the "form" element. This also forced the input areas to go on the next line, making the label positioning on top of the inputs. */
+    margin: 10px 0 0 0; /* Sets margin top to 10px and all others sides to 0. */
+  }
+
+  .inline {
+    width: unset; /* This removes the width that we have set above which is the width: 100% for all input elements. Making the radio buttons appear on the left next to the appropriate labels. */
+  }
