@@ -43,8 +43,9 @@ Misty Rose  #EAD7D7
 }
 
 .three {
-    width: 91%;
-    height: 28%;
-    background-color: #BACDB0;
-    margin: auto;
+    width: 91%; /* Sets current width using percentage, the size is dependent on the container. In this case it's saying that the width is set to 91% of the parent container. */
+    height: 28%; /* Sets current height. It's set at 28% height of the parent container */
+    background-color: #BACDB0; /* Sets background color for box three */
+    margin: auto; /* Sets the margin for all sides to auto. This means that the margin is distributed equally on all sides based on it's surrounding element and parent container. */
+    filter: blur(2px); /* Adds blur effect specific to the .three element and on top of the current blur that the .canvas have */
 }
