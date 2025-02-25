@@ -24,6 +24,10 @@ Misty Rose  #EAD7D7
     margin: 20px auto;
 }
 
+.one, .two {
+    filter: blur(1px); /* Adds blur effect on top of the current blur effect that we have for the .canvas element. This time the blur is specifically targetting only the .one and .two elements. */
+}
+
 .one {
     width: 425px; /* Sets current width */
     height: 150px; /* Sets current height */
