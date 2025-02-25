@@ -17,8 +17,8 @@ body {
     width: 100%; /* Sets the width of the body element to 100% of the browser area. */
     height: 100vh; /* Sets the height of the body element to 100 of the "viewport height" meaning the whole height of the browser */
     margin: 0; /* Removes the default margin of the body from all sides. This removes the horizontal scroll as well. */
-    background-color: #191919; /* Adds background color to the body element */
-    color: #EAD7D7; /* Changes the text color */
+    background-color: #B49FCC; /* Adds background color to the body element */
+    color: #191919; /* Changes the text color */
     font-family: monospace; /* Changes the font style of the whole body element.  */
     font-size: 16px; /* Changes the font size of the whole body element */
   }
@@ -47,7 +47,7 @@ body {
   }
 
   input, textarea {
-    background-color: #0a0a23; /* Adds background color to all input and textarea elements, this made the color blend in with the theme of the Registration form */
+    background-color: #5b4f6a; /* Adds background color to all input and textarea elements, this made the color blend in with the theme of the Registration form */
     border: 1px solid #0a0a23; /* Added border with the same color as the background. */
     color: #fff; /* Makes the text input color white for visibility. */
   }
@@ -64,7 +64,7 @@ body {
     margin: 0 auto; /* Places the submit button in the center of the form. Same as what was applied on the form element. */
     height: 2em; /* Sets the height of the button to the same height as our input elements */
     font-size: 1.1rem; /* Makes the font size bigger. */
-    background-color: #3b3b4f;
+    background-color: #5b4f6a;
     border: 1px solid white;
     border-radius: 5px; /* Makes the button edges rounded */
     cursor: pointer; /* This adds an effect that when the mouse is hovered on to the button the pointer will change into a clicking hand. */
