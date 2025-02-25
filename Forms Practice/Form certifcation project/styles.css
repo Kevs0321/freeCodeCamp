@@ -80,7 +80,7 @@ body {
   }
 
   a {
-    text-decoration: none; /* Removes the default underline that links have */
+   /* text-decoration: none; /* Removes the default underline that links have */
     color: #191919; /* Changes the text color to remove the default color for links */
   }
 
