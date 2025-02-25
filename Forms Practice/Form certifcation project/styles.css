@@ -66,5 +66,7 @@ body {
     font-size: 1.1rem; /* Makes the font size bigger. */
     background-color: #3b3b4f;
     border: 1px solid white;
+    border-radius: 5px; /* Makes the button edges rounded */
+    cursor: pointer; /* This adds an effect that when the mouse is hovered on to the button the pointer will change into a clicking hand. */
   }
 
