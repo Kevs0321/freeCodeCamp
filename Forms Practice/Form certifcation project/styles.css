@@ -43,13 +43,13 @@ body {
   input, textarea, select {
     width: 100%; /* Sets the width of all input areas to 100% of their parent element, in this case the "form" element. This also forced the input areas to go on the next line, making the label positioning on top of the inputs. */
     margin: 10px 0 0 0; /* Sets margin top to 10px and all others sides to 0. */
+    min-height: 2em; /* Adjusts the minimum height of the input areas. */
   }
 
   input, textarea {
     background-color: #0a0a23; /* Adds background color to all input and textarea elements, this made the color blend in with the theme of the Registration form */
     border: 1px solid #0a0a23; /* Added border with the same color as the background. */
     color: #fff; /* Makes the text input color white for visibility. */
-    min-height: 2em; /* Adjusts the minimum height of the input areas. */
   }
 
   .inline {
