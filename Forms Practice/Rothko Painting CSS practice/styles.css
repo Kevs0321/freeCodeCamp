@@ -33,6 +33,7 @@ Misty Rose  #EAD7D7
     height: 150px; /* Sets current height */
     background-color: #EAD7D7; /* Adds color to the first box inside the canvas class */
     margin: 20px auto; /* Sets the box centered inside the canvas class. In this case, the bottom margin of the .one element pushes .two down 20 pixels. */ 
+    box-shadow: 0px 0px 3px 3px #EAD7D7; /* Adds shadow on all sides, the first 3px is adding blur to the shadow, second 3px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
 }
 
 .two {
