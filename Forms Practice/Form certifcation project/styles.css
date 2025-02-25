@@ -62,5 +62,7 @@ body {
     display: block; /* Makes the element to be display from it's default element which is "inline" into a "block" element. */
     width: 60%; /* Sets the width of the submit button to 60%. */
     margin: 0 auto; /* Places the submit button in the center of the form. Same as what was applied on the form element. */
+    height: 2em; /* Sets the height of the button to the same height as our input elements */
+    font-size: 1.1rem; /* Makes the font size bigger */
   }
 
