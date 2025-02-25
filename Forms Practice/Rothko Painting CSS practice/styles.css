@@ -14,6 +14,7 @@ Misty Rose  #EAD7D7
     background-color: #F55536; /* Adds background color to the canvas class */
     /* padding: 1px; /* Adds space within the canvas so the boxes that we'll add within it will have something to push from. But doing this changed the dimensions of the canvas class.  */
     overflow: hidden; /* This keep the dimensions the same but still achieving the same result as we did with the padding. This hides the content that doesn't fit within the container. */
+    filter: blur(2px); /* Adds a blur effect to the whole .canvas elements including it's children elements which is .one .two and .three */
 }
 
 .frame {
