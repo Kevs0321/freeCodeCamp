@@ -45,8 +45,15 @@ body {
     margin: 10px 0 0 0; /* Sets margin top to 10px and all others sides to 0. */
   }
 
+  input, textarea {
+    background-color: #0a0a23; /* Adds background color to all input and textarea elements, this made the color blend in with the theme of the Registration form */
+    border: 1px solid #0a0a23; /* Added border with the same color as the background.  */
+  }
+
   .inline {
     width: unset; /* This removes the width that we have set above which is the width: 100% for all input elements. Making the radio buttons appear on the left next to the appropriate labels. */
     margin: 0 0.5em 0 0; /* Provides a right margin to the input so the label won't appear as too close to the radio inputs.  */
     vertical-align: middle /* Aligns the radio input vertically so it would appear inline with the labels. */
   }
+
+
