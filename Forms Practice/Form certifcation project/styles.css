@@ -61,5 +61,6 @@ body {
   input[type="submit"] { /* This selector is called attribute selector. This targets the input element with a "type" attribute and a value of "submit". */
     display: block; /* Makes the element to be display from it's default element which is "inline" into a "block" element. */
     width: 60%; /* Sets the width of the submit button to 60%. */
+    margin: 0 auto; /* Places the submit button in the center of the form. Same as what was applied on the form element. */
   }
 
