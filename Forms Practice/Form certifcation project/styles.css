@@ -47,7 +47,9 @@ body {
 
   input, textarea {
     background-color: #0a0a23; /* Adds background color to all input and textarea elements, this made the color blend in with the theme of the Registration form */
-    border: 1px solid #0a0a23; /* Added border with the same color as the background.  */
+    border: 1px solid #0a0a23; /* Added border with the same color as the background. */
+    color: #fff; /* Makes the text input color white for visibility. */
+    min-height: 2em; /* Adjusts the minimum height of the input areas. */
   }
 
   .inline {
