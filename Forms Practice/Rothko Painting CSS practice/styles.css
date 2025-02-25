@@ -27,12 +27,19 @@ Misty Rose  #EAD7D7
     width: 425px; /* Sets current width */
     height: 150px; /* Sets current height */
     background-color: #EAD7D7; /* Adds color to the first box inside the canvas class */
-    margin: 20px auto; /* Sets the box centered inside the canvas class */
+    margin: 20px auto; /* Sets the box centered inside the canvas class. In this case, the bottom margin of the .one element pushes .two down 20 pixels. */ 
 }
 
 .two {
     width: 475px; /* Sets current width */
     height: 200px; /* Sets current height */
     background-color: #B49FCC; /* Sets background color for number 2 box */
-    margin: auto; /* Centers the element vertically and horizontally */
+    margin: 0 auto 20px; /* This will still center the element, keeping in mind that the .one element already has a margin bottom of 20px that mean it pushes the .two element down. Now our margin for the .two element have 0 top, auto for both left and right and 20px for bottom.  */
+}
+
+.three {
+    width: 91%;
+    height: 28%;
+    background-color: #BACDB0;
+    margin: auto;
 }
