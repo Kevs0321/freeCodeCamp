@@ -12,6 +12,7 @@ Misty Rose  #EAD7D7
     width: 500px; /* Adds a set width to the div=class"canvas". This is the initial div container. */
     height: 600px; /* Sets the initial width for our canvas */
     background-color: #F55536; /* Adds background color to the canvas class */
+    padding: 1px; /* Adds space within the canvas so the boxes that we'll add within it will have something to push from. */
 }
 
 .frame {
@@ -22,5 +23,8 @@ Misty Rose  #EAD7D7
 }
 
 .one {
-    width: 425px;
+    width: 425px; /* Sets current width */
+    height: 150px; /* Sets current height */
+    background-color: #EAD7D7; /* Adds color to the first box inside the canvas class */
+    margin: 20px auto; /* Sets the box centered inside the canvas class */
 }
