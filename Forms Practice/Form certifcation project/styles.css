@@ -41,6 +41,10 @@ body {
     padding-bottom: 2em;
   }
 
+  fieldset {
+    border: none; /* Removes default borders from fieldset */
+  }
+
   input, textarea, select {
     width: 100%; /* Sets the width of all input areas to 100% of their parent element, in this case the "form" element. This also forced the input areas to go on the next line, making the label positioning on top of the inputs. */
     margin: 10px 0 0 0; /* Sets margin top to 10px and all others sides to 0. */
@@ -72,6 +76,11 @@ body {
   }
 
   input[type="file"] {
-    padding: 1px 2px;
+    padding: 1px 2px; /* Added padding to file input to make it look the same as all other input elements */
+  }
+
+  a {
+    text-decoration: none; /* Removes the default underline that links have */
+    color: #191919; /* Changes the text color to remove the default color for links */
   }
 
