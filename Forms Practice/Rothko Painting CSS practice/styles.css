@@ -20,3 +20,7 @@ Misty Rose  #EAD7D7
     padding: 50px; /* Adds space into the frame class to push the canvas class inside and make it look like a frame. */
     margin: 20px auto;
 }
+
+.one {
+    width: 425px;
+}
