@@ -21,7 +21,7 @@ Misty Rose  #EAD7D7
     border: 50px solid #191919; /* Adds a black border for the frame class */
     width: 500px; /* Sets the with the same with the canvas */
     padding: 50px; /* Adds space into the frame class to push the canvas class inside and make it look like a frame. */
-    margin: 20px auto;
+    margin: 20px auto; /* Sets the top and bottom margin 20px and auto for horizontal margin */
 }
 
 .one, .two {
