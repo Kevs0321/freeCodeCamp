@@ -41,6 +41,7 @@ Misty Rose  #EAD7D7
     height: 200px; /* Sets current height */
     background-color: #B49FCC; /* Sets background color for number 2 box */
     margin: 0 auto 20px; /* This will still center the element, keeping in mind that the .one element already has a margin bottom of 20px that mean it pushes the .two element down. Now our margin for the .two element have 0 top, auto for both left and right and 20px for bottom.  */
+    box-shadow: 0px 0px 3px 3px #B49FCC; /* Adds shadow on all sides, the first 3px is adding blur to the shadow, second 3px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
 }
 
 .three {
@@ -49,4 +50,5 @@ Misty Rose  #EAD7D7
     background-color: #BACDB0; /* Sets background color for box three */
     margin: auto; /* Sets the margin for all sides to auto. This means that the margin is distributed equally on all sides based on it's surrounding element and parent container. */
     filter: blur(2px); /* Adds blur effect specific to the .three element and on top of the current blur that the .canvas have */
+    box-shadow: 0px 0px 5px 5px #BACDB0; /* Adds shadow on all sides, the first 5px is adding blur to the shadow, second 5px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
 }
