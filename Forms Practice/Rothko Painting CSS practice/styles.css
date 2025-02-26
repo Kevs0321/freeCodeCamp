@@ -35,6 +35,7 @@ Misty Rose  #EAD7D7
     margin: 20px auto; /* Sets the box centered inside the canvas class. In this case, the bottom margin of the .one element pushes .two down 20 pixels. */ 
     box-shadow: 0px 0px 3px 3px #EAD7D7; /* Adds shadow on all sides, the first 3px is adding blur to the shadow, second 3px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
     border-radius: 9px; /* Softens the corner of the border for .one element. Same principle as the margin and padding, if you set only one unit then it will all apply to 4 corners of the border. */
+    transform: rotate(-0.6deg); /* Rotates the element 0.6 degrees counter clockwise */
 }
 
 .two {
@@ -44,6 +45,7 @@ Misty Rose  #EAD7D7
     margin: 0 auto 20px; /* This will still center the element, keeping in mind that the .one element already has a margin bottom of 20px that mean it pushes the .two element down. Now our margin for the .two element have 0 top, auto for both left and right and 20px for bottom.  */
     box-shadow: 0px 0px 3px 3px #B49FCC; /* Adds shadow on all sides, the first 3px is adding blur to the shadow, second 3px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
     border-radius: 8px 10px 8px 10px; /* Softens the corner of the border for .two element. This time the top left corner is set to 8px, top right is 10px, bottom right 8px, and bottom left 10px  */
+    transform: rotate(0.4deg); /* rotates the element 0.4 degrees clockwise */
 }
 
 .three {
@@ -54,4 +56,5 @@ Misty Rose  #EAD7D7
     filter: blur(2px); /* Adds blur effect specific to the .three element and on top of the current blur that the .canvas have */
     box-shadow: 0px 0px 5px 5px #BACDB0; /* Adds shadow on all sides, the first 5px is adding blur to the shadow, second 5px is for spread radius, meaning how much do you want to spread the shadow, then lastly add a color of your choice.  */
     border-radius: 30px 25px 60px 12px; /* Same principle as the border radius we did for .one and .two element, just different sizes. Remember it's being read as border-radius: topleft topright bottomright bottomleft; */
+    transform: rotate(-0.2deg); /* Rotates the element 0.2 degrees counter clockwise */
 }
