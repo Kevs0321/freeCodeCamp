@@ -8,6 +8,10 @@ Wisteria    #B49FCC
 Misty Rose  #EAD7D7
 
 */
+body {
+    background-color: #535353;
+}
+
 .canvas {
     width: 500px; /* Adds a set width to the div=class"canvas". This is the initial div container. */
     height: 600px; /* Sets the initial width for our canvas */
@@ -16,6 +20,7 @@ Misty Rose  #EAD7D7
     overflow: hidden; /* This keep the dimensions the same but still achieving the same result as we did with the padding. This hides the content that doesn't fit within the container. */
     filter: blur(2px); /* Adds a blur effect to the whole .canvas elements including it's children elements which is .one .two and .three */
     border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #F55536;
 }
 
 .frame {
@@ -23,6 +28,7 @@ Misty Rose  #EAD7D7
     width: 500px; /* Sets the with the same with the canvas */
     padding: 50px; /* Adds space into the frame class to push the canvas class inside and make it look like a frame. */
     margin: 20px auto; /* Sets the top and bottom margin 20px and auto for horizontal margin */
+    box-shadow: 0px 0px 10px 5px #EAD7D7;
 }
 
 .one, .two {
